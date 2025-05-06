@@ -682,14 +682,14 @@ body {
 --text-5: hsl(0, 0%, 100%); /* muted channels/chats and timestamps */
 
 /* background and dark colors */
---bg-1: hsla(0, 0%, 20%, 0); /* dark buttons when clicked, now transparent */
---bg-2: hsla(0, 0%, 16%, 0); /* dark buttons, now transparent */
---bg-3: hsla(0, 0%, 13%, 0); /* spacing, secondary elements, now transparent */
---bg-4: hsla(0, 0%, 10%, 0); /* main background color, now transparent */
---hover: hsla(0, 0%, 40%, 0.1); /* channels and buttons when hovered */
---active: hsla(0, 0%, 40%, 0.2); /* channels and buttons when clicked or selected */
---active-2: hsla(0, 0%, 40%, 0.3); /* extra state for transparent buttons */
---message-hover: hsla(0, 0%, 0%, 0.1); /* messages when hovered */
+--bg-1: hsl(0, 0%, 20%); /* dark buttons when clicked */
+--bg-2: hsl(0, 0%, 16%); /* dark buttons */
+--bg-3: hsl(0, 0%, 13%); /* spacing, secondary elements */
+--bg-4: hsl(0, 0%, 10%); /* main background color */
+--hover: hsl(0, 0%, 40%, 0.1); /* channels and buttons when hovered */
+--active: hsl(0, 0%, 40%, 0.2); /* channels and buttons when clicked or selected */
+--active-2: hsl(0, 0%, 40%, 0.3); /* extra state for transparent buttons */
+--message-hover: hsl(0, 0%, 0%, 0.1); /* messages when hovered */
 
 /* accent colors */
 --accent-1: hsl(0, 0%, 100%); /* links and other accent text */
@@ -704,16 +704,16 @@ body {
 --reply-hover: linear-gradient(to right, color-mix(in hsl, hsl(0, 0%, 100%), transparent 95%) 40%, transparent); /* background of messages that reply to you when hovered */
 
 /* status indicator colors */
---online: hsla(0, 0%, 100%, 0); /* now transparent */
---dnd: hsla(0, 0%, 100%, 0); /* now transparent */
---idle: hsla(0, 0%, 100%, 0); /* now transparent */
---streaming: hsla(0, 0%, 100%, 0); /* now transparent */
---offline: hsla(0, 0%, 100%, 0); /* now transparent */
+--online: hsl(0, 0%, 100%); /* change to white for default */
+--dnd: hsl(0, 0%, 100%); /* change to white for default */
+--idle: hsl(0, 0%, 100%); /* change to white for default */
+--streaming: hsl(0, 0%, 100%); /* change to white for default */
+--offline: hsl(0, 0%, 100%); /* change to white for default offline color */
 
 /* border colors */
---border-light: hsla(0, 0%, 40%, 0.1); /* light border color */
---border: hsla(0, 0%, 40%, 0.2); /* normal border color */
---button-border: hsla(0, 0%, 100%, 0.1); /* neutral border color of buttons */
+--border-light: hsl(0, 0%, 40%, 0.1); /* light border color */
+--border: hsl(0, 0%, 40%, 0.2); /* normal border color */
+--button-border: hsl(0, 0%, 100%, 0.1); /* neutral border color of buttons */
 
 /* base colors */
 --red-1: hsl(0, 0%, 100%);
@@ -745,7 +745,6 @@ body {
 --purple-3: hsl(0, 0%, 100%);
 --purple-4: hsl(0, 0%, 100%);
 --purple-5: hsl(0, 0%, 100%);
-
 
 }
 
